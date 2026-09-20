@@ -3,48 +3,61 @@
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Platform — HOSPRO</title>
-<meta name="description" content="The eight tools inside HOSPRO: sales pipeline, corporate rates, events, marketing, guest experience and operations.">
+<meta name="description" content="The HOSPRO platform: sales pipeline, corporate rates, events, marketing, guest experience, operations and AI — one login for your hotel's commercial day.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="shared.css">
-<style>
-.feat{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;padding:44px 0;border-bottom:1px solid var(--line)}
-.feat:nth-child(even) .feat-media{order:-1}
-.feat-media img{border-radius:16px;box-shadow:0 20px 50px rgba(20,35,47,.14);width:100%;height:360px;object-fit:cover}
-.feat h3{font-size:28px;font-weight:800;color:var(--navy);letter-spacing:-.6px}
-.feat .tag{color:var(--teal-dk);font-weight:700;font-size:14px;margin-bottom:8px}
-.feat p{font-size:16.5px;color:var(--slate);margin-top:12px}
-.feat ul{margin-top:16px;list-style:none;display:flex;flex-direction:column;gap:9px}
-.feat li{display:flex;gap:10px;font-size:15px;color:var(--ink)}
-.feat li::before{content:"✓";color:var(--teal);font-weight:800}
-@media(max-width:920px){.feat{grid-template-columns:1fr;gap:28px}.feat:nth-child(even) .feat-media{order:0}}
-</style>
 </head>
 <body>
 <header><div class="wrap"><nav>
-  <a href="index.html" class="logo"><svg class="mark" viewBox="0 0 100 116" fill="none"><path d="M8 8 L34 4 L34 112 L8 108 Z" fill="#14232f"/><path d="M66 4 L92 8 L92 108 L66 112 Z" fill="#14232f"/><path d="M8 54 Q34 40 50 54 Q66 68 92 54 L92 70 Q66 84 50 70 Q34 56 8 70 Z" fill="#20b2a2"/></svg>HOS<b>PRO</b></a>
-  <div class="nav-links"><a href="platform.html" class="on">Platform</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="contact.html" class="nav-cta">Book a demo</a></div>
+  <a href="index.html" class="logo"><img src="logo-full.svg" alt="HOSPRO"></a>
+  <button class="menu-toggle" onclick="document.getElementById('navlinks').classList.toggle('open')">☰</button>
+  <div class="nav-links" id="navlinks"><a href="platform.html" class="on">Platform</a><a href="solutions.html">Solutions</a><a href="integrations.html">Integrations</a><a href="training.html">Training</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="contact.html" class="nav-cta">Book a demo</a></div>
 </nav></div></header>
 
-<section class="page-hero"><div class="wrap"><h1>One platform. Eight tools. Every part of your hotel's commercial day.</h1><p>HOSPRO replaces the shared inbox, the spreadsheets and the scattered documents with a single, joined-up system your team actually enjoys using.</p></div></section>
+<section class="page-hero"><div class="wrap">
+  <div class="eyebrow">The platform</div>
+  <h1>One login. Every part of your hotel's commercial day.</h1>
+  <p>HOSPRO replaces the shared inbox, the spreadsheets and the scattered documents with a single, joined-up system — integrated with your PMS and made intelligent with AI.</p>
+</div></section>
 
-<div class="wrap">
-  <div class="feat"><div><div class="tag">Sales &amp; Pipeline</div><h3>See every opportunity, chase nothing by accident.</h3><p>A live sales cockpit: enquiries from first contact to confirmed, traffic-light status, and a "needs attention" list that surfaces what's going cold.</p><ul><li>Traffic-light status on every enquiry</li><li>Conversion by event type and owner</li><li>Follow-up tracking so nothing slips</li></ul></div><div class="feat-media"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=900&q=80" alt="Team working" loading="lazy"></div></div>
+<section style="padding-top:20px"><div class="wrap">
+  <div class="sec-head"><div class="eyebrow">Modules</div><h2>Everything your commercial team needs.</h2></div>
+  <div class="grid-2">
+    <div class="card"><div class="ic">📊</div><h3>Sales &amp; pipeline</h3><p>Every enquiry from first contact to confirmed.</p><ul><li>Traffic-light status on each enquiry</li><li>Conversion by event type &amp; owner</li><li>Follow-up tracking so nothing slips</li></ul></div>
+    <div class="card"><div class="ic">🏢</div><h3>StayCORP — corporate &amp; rates</h3><p>Build a corporate database and win direct.</p><ul><li>Company league table by room nights</li><li>Flags 150+ night corporate candidates</li><li>Pre-check-in capture feeds the data</li></ul></div>
+    <div class="card"><div class="ic">📅</div><h3>Events &amp; enquiries</h3><p>Capture leads day and night.</p><ul><li>Guided events concierge, 24/7</li><li>Straight into your pipeline</li><li>Branded proposals &amp; quotes</li></ul></div>
+    <div class="card"><div class="ic">📣</div><h3>Marketing &amp; content</h3><p>Create and share in minutes.</p><ul><li>Brand library &amp; social studio</li><li>Brochures, menus &amp; rate cards</li><li>AI drafting in your hotel's voice</li></ul></div>
+    <div class="card"><div class="ic">⭐</div><h3>Guest experience</h3><p>From pre-arrival to review.</p><ul><li>Branded pre-check-in</li><li>Smart review routing</li><li>Happy guests to Google, issues to you</li></ul></div>
+    <div class="card"><div class="ic">🔧</div><h3>Operations &amp; profit</h3><p>Keep spaces ready and profitable.</p><ul><li>Room &amp; venue readiness</li><li>Maintenance &amp; AV upgrades</li><li>Event profitability tools</li></ul></div>
+  </div>
+</div></section>
 
-  <div class="feat"><div><div class="tag">Corporate &amp; Rates</div><h3>Turn OTA guests into direct corporate accounts.</h3><p>Every pre-check-in and arrival builds a corporate database — so you can see which companies stay most, and move them onto a direct rate.</p><ul><li>Company league table by room nights</li><li>Flags 150+ night corporate candidates</li><li>Weekly arrival data, structured automatically</li></ul></div><div class="feat-media"><img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=900&q=80" alt="Hotel reception" loading="lazy"></div></div>
+<section class="wash"><div class="wrap">
+  <div class="sec-head center"><div class="eyebrow">Management overview</div><h2>The whole picture, on one screen.</h2><p>HOSPRO pulls from your PMS and every module into a live dashboard your management team can read at a glance.</p></div>
+  <div class="grid-2" style="align-items:stretch">
+    <div class="chart"><h4>Pipeline by stage</h4><p class="cap">Value moving through the commercial funnel</p>
+      <div class="bar-row"><div class="lbl">Enquiry</div><div class="bar-track"><div class="bar-fill grey" style="width:35%">£142k</div></div></div>
+      <div class="bar-row"><div class="lbl">Provisional</div><div class="bar-track"><div class="bar-fill navy" style="width:78%">£312k</div></div></div>
+      <div class="bar-row"><div class="lbl">Confirmed</div><div class="bar-track"><div class="bar-fill teal" style="width:52%">£208k</div></div></div>
+    </div>
+    <div class="chart"><h4>Conversion by event type</h4><p class="cap">Win rate across the mix</p>
+      <div class="bar-row"><div class="lbl">Weddings</div><div class="bar-track"><div class="bar-fill teal" style="width:64%">64%</div></div></div>
+      <div class="bar-row"><div class="lbl">Corporate</div><div class="bar-track"><div class="bar-fill navy" style="width:48%">48%</div></div></div>
+      <div class="bar-row"><div class="lbl">Private dining</div><div class="bar-track"><div class="bar-fill navy" style="width:39%">39%</div></div></div>
+      <div class="bar-row"><div class="lbl">Christmas</div><div class="bar-track"><div class="bar-fill teal" style="width:71%">71%</div></div></div>
+    </div>
+  </div>
+</div></section>
 
-  <div class="feat"><div><div class="tag">Events &amp; Guest Experience</div><h3>Capture every enquiry, delight every guest.</h3><p>A guided events concierge takes leads day and night. A branded pre-check-in prepares each stay, and a smart review flow protects your public rating.</p><ul><li>24/7 events enquiry capture</li><li>Pre-check-in with corporate data capture</li><li>Happy guests to Google, unhappy ones to you</li></ul></div><div class="feat-media"><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=900&q=80" alt="Hotel room" loading="lazy"></div></div>
-
-  <div class="feat"><div><div class="tag">Marketing &amp; Operations</div><h3>Create, share and run — in minutes, not days.</h3><p>A brand library, social posts, branded quotes, brochures and menus, plus the operational tools to track readiness, suppliers and profitability.</p><ul><li>Brand library &amp; social studio</li><li>Branded quotes, brochures &amp; menus</li><li>Room readiness, suppliers &amp; profit tools</li></ul></div><div class="feat-media"><img src="https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=900&q=80" alt="Hotel lounge" loading="lazy"></div></div>
-</div>
-
-<section class="final"><div class="wrap"><h2>See it working on your hotel.</h2><p>We'll set HOSPRO up with your rooms, your events and your numbers — so you can see the difference, not just hear about it.</p><a href="contact.html" class="btn-primary">Book a demo</a></div></section>
+<section class="final"><div class="wrap"><h2>See it working on your hotel.</h2><p>We'll set HOSPRO up with your rooms, events and numbers — so you see the difference, not just hear about it.</p><a href="contact.html" class="btn-primary">Book a demo</a></div></section>
 
 <footer><div class="wrap">
   <div class="foot-grid">
-    <div class="foot-brand"><a href="index.html" class="logo"><svg class="mark" viewBox="0 0 100 116" fill="none"><path d="M8 8 L34 4 L34 112 L8 108 Z" fill="#fff"/><path d="M66 4 L92 8 L92 108 L66 112 Z" fill="#fff"/><path d="M8 54 Q34 40 50 54 Q66 68 92 54 L92 70 Q66 84 50 70 Q34 56 8 70 Z" fill="#20b2a2"/></svg>HOS<b>PRO</b></a><p>The commercial platform for independent hotels.</p></div>
-    <div class="foot-col"><h5>Platform</h5><a href="platform.html">Sales &amp; pipeline</a><a href="platform.html">Corporate &amp; rates</a><a href="platform.html">Marketing</a><a href="platform.html">Guest experience</a></div>
-    <div class="foot-col"><h5>Company</h5><a href="about.html">About</a><a href="contact.html">Book a demo</a><a href="mailto:hello@hospro.co.uk">hello@hospro.co.uk</a></div>
+    <div class="foot-brand"><img src="logo-white.svg" alt="HOSPRO"><p>The commercial and operational platform for hotels — with AI intelligence, integration and training built in.</p></div>
+    <div class="foot-col"><h5>Platform</h5><a href="platform.html">Overview</a><a href="solutions.html">Solutions</a><a href="integrations.html">Integrations</a><a href="training.html">Training</a></div>
+    <div class="foot-col"><h5>Company</h5><a href="about.html">About</a><a href="contact.html">Contact</a><a href="contact.html">Book a demo</a></div>
+    <div class="foot-col"><h5>Get in touch</h5><a href="mailto:hello@hospro.co.uk">hello@hospro.co.uk</a><a href="#">17 Hanover Square<br>London W1S 1BN</a></div>
   </div>
   <div class="foot-bottom"><div>HOSPRO Worldwide · 17 Hanover Square, London W1S 1BN</div><div>© 2026 HOSPRO. All rights reserved.</div></div>
 </div></footer>
