@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — HOSPRO</title>
+<meta name="description" content="Book a HOSPRO demo. HOSPRO Worldwide, 17 Hanover Square, London W1S 1BN. hello@hospro.co.uk">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;padding:50px 0}
+.contact-info h1{font-size:44px;font-weight:800;letter-spacing:-1.5px;line-height:1.1;color:var(--navy)}
+.contact-info p.lead{font-size:18px;color:var(--slate);margin-top:16px}
+.cinfo{margin-top:32px;display:flex;flex-direction:column;gap:22px}
+.cline{display:flex;gap:14px;align-items:flex-start}
+.cline .ic{width:44px;height:44px;border-radius:11px;background:var(--wash);display:grid;place-items:center;font-size:20px;flex-shrink:0}
+.cline b{display:block;color:var(--navy);font-weight:700;font-size:16px}
+.cline span,.cline a{color:var(--slate);font-size:15px}
+.cline a:hover{color:var(--teal-dk)}
+.form-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:34px;box-shadow:0 14px 40px rgba(20,35,47,.08)}
+.form-card h3{font-size:22px;font-weight:800;color:var(--navy);margin-bottom:6px}
+.form-card .sub{color:var(--slate);font-size:14.5px;margin-bottom:22px}
+.fg{margin-bottom:16px}
+.fg label{display:block;font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px}
+.fg input,.fg textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font-family:inherit;font-size:15px;background:var(--paper)}
+.fg input:focus,.fg textarea:focus{outline:none;border-color:var(--teal);background:#fff}
+.form-card button{width:100%;background:var(--teal);color:#fff;border:none;padding:14px;border-radius:10px;font:700 16px 'Manrope';cursor:pointer;transition:.15s}
+.form-card button:hover{background:var(--teal-dk)}
+.form-note{font-size:12.5px;color:var(--slate);text-align:center;margin-top:12px}
+@media(max-width:920px){.contact-grid{grid-template-columns:1fr;gap:36px}.contact-info h1{font-size:34px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a href="index.html" class="logo"><svg class="mark" viewBox="0 0 100 116" fill="none"><path d="M8 8 L34 4 L34 112 L8 108 Z" fill="#14232f"/><path d="M66 4 L92 8 L92 108 L66 112 Z" fill="#14232f"/><path d="M8 54 Q34 40 50 54 Q66 68 92 54 L92 70 Q66 84 50 70 Q34 56 8 70 Z" fill="#20b2a2"/></svg>HOS<b>PRO</b></a>
+  <div class="nav-links"><a href="platform.html">Platform</a><a href="about.html">About</a><a href="contact.html" class="on">Contact</a><a href="contact.html" class="nav-cta">Book a demo</a></div>
+</nav></div></header>
+
+<div class="wrap"><div class="contact-grid">
+  <div class="contact-info">
+    <h1>Book a demo.</h1>
+    <p class="lead">Tell us a little about your hotel and we'll set up a short, tailored walkthrough — with your rooms, events and numbers in view.</p>
+    <div class="cinfo">
+      <div class="cline"><div class="ic">✉️</div><div><b>Email</b><a href="mailto:hello@hospro.co.uk">hello@hospro.co.uk</a></div></div>
+      <div class="cline"><div class="ic">📍</div><div><b>HOSPRO Worldwide</b><span>17 Hanover Square<br>London W1S 1BN</span></div></div>
+      <div class="cline"><div class="ic">🌐</div><div><b>Online</b><span>hospro.co.uk</span></div></div>
+    </div>
+  </div>
+  <div class="form-card">
+    <h3>Request your demo</h3>
+    <p class="sub">We'll be in touch within one working day.</p>
+    <form id="demoForm" action="mailto:hello@hospro.co.uk" method="post" enctype="text/plain">
+      <div class="fg"><label>Your name</label><input name="name" required></div>
+      <div class="fg"><label>Hotel / venue</label><input name="hotel" required></div>
+      <div class="fg"><label>Email</label><input name="email" type="email" required></div>
+      <div class="fg"><label>Phone (optional)</label><input name="phone"></div>
+      <div class="fg"><label>Anything you'd like us to focus on?</label><textarea name="message" rows="3"></textarea></div>
+      <button type="submit">Request demo</button>
+      <p class="form-note">Or email us directly at hello@hospro.co.uk</p>
+    </form>
+  </div>
+</div></div>
+
+<footer><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand"><a href="index.html" class="logo"><svg class="mark" viewBox="0 0 100 116" fill="none"><path d="M8 8 L34 4 L34 112 L8 108 Z" fill="#fff"/><path d="M66 4 L92 8 L92 108 L66 112 Z" fill="#fff"/><path d="M8 54 Q34 40 50 54 Q66 68 92 54 L92 70 Q66 84 50 70 Q34 56 8 70 Z" fill="#20b2a2"/></svg>HOS<b>PRO</b></a><p>The commercial platform for independent hotels.</p></div>
+    <div class="foot-col"><h5>Platform</h5><a href="platform.html">Sales &amp; pipeline</a><a href="platform.html">Corporate &amp; rates</a><a href="platform.html">Marketing</a><a href="platform.html">Guest experience</a></div>
+    <div class="foot-col"><h5>Company</h5><a href="about.html">About</a><a href="contact.html">Book a demo</a><a href="mailto:hello@hospro.co.uk">hello@hospro.co.uk</a></div>
+  </div>
+  <div class="foot-bottom"><div>HOSPRO Worldwide · 17 Hanover Square, London W1S 1BN</div><div>© 2026 HOSPRO. All rights reserved.</div></div>
+</div></footer>
+</body></html>

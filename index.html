@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HOSPRO — the commercial platform for independent hotels</title>
+<meta name="description" content="HOSPRO brings sales, events, corporate rates, marketing and guest experience into one platform — so independent hotels win more direct business and run leaner.">
+<meta property="og:title" content="HOSPRO — the commercial platform for independent hotels">
+<meta property="og:description" content="One platform for sales, events, rates, marketing and guest experience.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200&q=80">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+<style>
+.hero{padding:70px 0 40px}
+.hero-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:50px;align-items:center}
+.hero h1{font-size:52px;font-weight:800;line-height:1.08;letter-spacing:-1.5px;color:var(--navy)}
+.hero .lead{font-size:19px;color:var(--slate);margin:22px 0 30px;max-width:30em}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.hero-proof{margin-top:34px;display:flex;gap:34px;flex-wrap:wrap}
+.proof b{display:block;font-size:30px;font-weight:800;color:var(--navy);letter-spacing:-.5px}
+.proof span{font-size:13.5px;color:var(--slate)}
+.shot{background:linear-gradient(160deg,var(--navy),var(--navy-2));border-radius:18px;padding:14px;box-shadow:0 30px 70px rgba(20,35,47,.35)}
+.shot-bar{display:flex;gap:6px;padding:8px 6px 12px}
+.shot-bar i{width:10px;height:10px;border-radius:50%;background:rgba(255,255,255,.25)}
+.shot-inner{background:var(--paper);border-radius:11px;padding:18px;min-height:340px}
+.shot-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}
+.shot-h .t{font-weight:800;font-size:17px;color:var(--navy)}.shot-h .t b{color:var(--teal)}
+.shot-h .pill{font-size:10px;font-weight:700;background:var(--wash);color:var(--teal-dk);padding:4px 10px;border-radius:20px}
+.shot-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+.shot-card{background:#fff;border:1px solid var(--line);border-radius:9px;padding:10px}
+.shot-card .v{font-size:18px;font-weight:800;color:var(--navy)}.shot-card .k{font-size:9.5px;color:var(--slate)}
+.shot-rows .r{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--line);font-size:11px}
+.dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.dot.g{background:#3fae6f}.dot.a{background:#e0a53a}.dot.r{background:#d05a5a}
+.shot-rows .r .nm{font-weight:700;color:var(--navy);flex:1}.shot-rows .r .vv{font-weight:700;color:var(--navy)}
+.strip{padding:26px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:30px}
+.strip p{text-align:center;font-size:13px;color:var(--slate);font-weight:600}
+.band{background:var(--navy);color:#fff}
+.band .sec-head h2{color:#fff}.band .sec-head p{color:#a8bcc4}.band .eyebrow{color:var(--teal)}
+.probs{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.prob{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:26px}
+.prob h4{font-size:19px;font-weight:700;margin-bottom:8px}.prob p{color:#a8bcc4;font-size:15px}
+.showcase-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.showcase img{border-radius:16px;box-shadow:0 20px 50px rgba(20,35,47,.15);width:100%;height:420px;object-fit:cover}
+.showcase h2{font-size:34px;font-weight:800;letter-spacing:-1px;color:var(--navy);line-height:1.15}
+.showcase p{font-size:17px;color:var(--slate);margin-top:16px}
+.mods{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.mod{border:1px solid var(--line);border-radius:16px;padding:30px;background:#fff;transition:.18s}
+.mod:hover{border-color:var(--teal);box-shadow:0 14px 40px rgba(20,35,47,.08)}
+.mod .ic{width:48px;height:48px;border-radius:12px;background:var(--wash);display:grid;place-items:center;font-size:24px;margin-bottom:16px}
+.mod h3{font-size:21px;font-weight:800;color:var(--navy);margin-bottom:8px}.mod p{color:var(--slate);font-size:15.5px}
+@media(max-width:920px){.hero-grid,.showcase-grid{grid-template-columns:1fr;gap:36px}.probs,.mods{grid-template-columns:1fr}.hero h1{font-size:38px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a href="index.html" class="logo"><svg class="mark" viewBox="0 0 100 116" fill="none"><path d="M8 8 L34 4 L34 112 L8 108 Z" fill="#14232f"/><path d="M66 4 L92 8 L92 108 L66 112 Z" fill="#14232f"/><path d="M8 54 Q34 40 50 54 Q66 68 92 54 L92 70 Q66 84 50 70 Q34 56 8 70 Z" fill="#20b2a2"/></svg>HOS<b>PRO</b></a>
+  <div class="nav-links"><a href="platform.html">Platform</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="contact.html" class="nav-cta">Book a demo</a></div>
+</nav></div></header>
 
+<section class="hero"><div class="wrap hero-grid">
+  <div>
+    <h1>Run the commercial side of your hotel from one place.</h1>
+    <p class="lead">HOSPRO brings your sales pipeline, events, corporate rates, marketing and guest experience together — so independent hotels win more direct business and waste less time in spreadsheets.</p>
+    <div class="hero-cta"><a href="contact.html" class="btn-primary">Book a demo</a><a href="platform.html" class="btn-ghost">See the platform</a></div>
+    <div class="hero-proof"><div class="proof"><b>8</b><span>tools, one login</span></div><div class="proof"><b>Direct</b><span>bookings over OTA</span></div><div class="proof"><b>Built by</b><span>hoteliers</span></div></div>
+  </div>
+  <div class="shot"><div class="shot-bar"><i></i><i></i><i></i></div><div class="shot-inner">
+    <div class="shot-h"><div class="t">HOS<b>PRO</b> · Dashboard</div><div class="pill">Live</div></div>
+    <div class="shot-cards"><div class="shot-card"><div class="v">176</div><div class="k">Open enquiries</div></div><div class="shot-card"><div class="v">£18,292</div><div class="k">Confirmed</div></div><div class="shot-card"><div class="v">92%</div><div class="k">Occupancy</div></div></div>
+    <div class="shot-rows"><div class="r"><span class="dot g"></span><span class="nm">Cartwright — Wedding</span><span class="vv">£12,000</span></div><div class="r"><span class="dot a"></span><span class="nm">GreenTech — Conference</span><span class="vv">£8,400</span></div><div class="r"><span class="dot g"></span><span class="nm">Deloitte — Corporate stay</span><span class="vv">£6,200</span></div><div class="r"><span class="dot r"></span><span class="nm">Private dinner — lost</span><span class="vv">£3,000</span></div><div class="r"><span class="dot a"></span><span class="nm">Spa retreat group</span><span class="vv">£5,100</span></div></div>
+  </div></div>
+</div>
+<div class="wrap"><div class="strip"><p>Built for independent hotels, country houses and spa &amp; leisure venues</p></div></div>
+</section>
+
+<section class="band"><div class="wrap">
+  <div class="sec-head"><div class="eyebrow">The problem we solve</div><h2>Great hotels lose revenue in the gaps between systems.</h2><p>Enquiries sit in inboxes. Corporate guests book through OTAs at full commission. Marketing lives on one laptop. HOSPRO closes those gaps.</p></div>
+  <div class="probs"><div class="prob"><h4>Enquiries go cold</h4><p>Leads scattered across email and phone, with no follow-up and no view of what's converting.</p></div><div class="prob"><h4>Commission bleeds margin</h4><p>Regular corporate guests booking through OTAs, when they could be on a direct rate.</p></div><div class="prob"><h4>No single view</h4><p>Sales, events, rates and marketing in separate places — so nobody sees the whole picture.</p></div></div>
+</div></section>
+
+<section class="showcase"><div class="wrap showcase-grid">
+  <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1000&q=80" alt="Hotel lobby" loading="lazy">
+  <div><h2>Designed around how hotels actually work.</h2><p>From the first enquiry to the thank-you after checkout, HOSPRO follows the real rhythm of a hotel — sales, events, rates, marketing and guest experience, joined up. No retraining your team on abstract software; it works the way they already think.</p><a href="platform.html" class="btn-ghost" style="padding-left:0">Explore the platform →</a></div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <div class="sec-head"><div class="eyebrow">The platform</div><h2>Eight tools that work as one.</h2><p>Everything your commercial team needs, under a single login.</p></div>
+  <div class="mods">
+    <div class="mod"><div class="ic">📊</div><h3>Sales &amp; pipeline</h3><p>Every enquiry from first contact to confirmed, with traffic-light status, conversion by event type and follow-up tracking.</p></div>
+    <div class="mod"><div class="ic">🏢</div><h3>Corporate &amp; rates</h3><p>Build a database of corporate guests, spot who's booking via OTA, and move them onto direct rates.</p></div>
+    <div class="mod"><div class="ic">📅</div><h3>Events &amp; enquiries</h3><p>A guided concierge captures event leads day and night, straight into your pipeline.</p></div>
+    <div class="mod"><div class="ic">📣</div><h3>Marketing &amp; content</h3><p>Brand library, social posts, quotes, brochures and menus — created and shared in minutes.</p></div>
+    <div class="mod"><div class="ic">⭐</div><h3>Guest experience</h3><p>Pre-check-in capture and a review flow that sends happy guests to Google and unhappy ones to you.</p></div>
+    <div class="mod"><div class="ic">🔧</div><h3>Operations</h3><p>Track room readiness, AV upgrades and suppliers, with profitability tools for every event.</p></div>
+  </div>
+</div></section>
+
+<section class="final"><div class="wrap"><h2>See HOSPRO on your hotel.</h2><p>Book a short demo and we'll show you how HOSPRO would work for your venue — with your rooms, your events and your numbers.</p><a href="contact.html" class="btn-primary">Book a demo</a></div></section>
+
+<footer><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand"><a href="index.html" class="logo"><svg class="mark" viewBox="0 0 100 116" fill="none"><path d="M8 8 L34 4 L34 112 L8 108 Z" fill="#fff"/><path d="M66 4 L92 8 L92 108 L66 112 Z" fill="#fff"/><path d="M8 54 Q34 40 50 54 Q66 68 92 54 L92 70 Q66 84 50 70 Q34 56 8 70 Z" fill="#20b2a2"/></svg>HOS<b>PRO</b></a><p>The commercial platform for independent hotels. Sales, events, rates, marketing and guest experience — in one place.</p></div>
+    <div class="foot-col"><h5>Platform</h5><a href="platform.html">Sales &amp; pipeline</a><a href="platform.html">Corporate &amp; rates</a><a href="platform.html">Marketing</a><a href="platform.html">Guest experience</a></div>
+    <div class="foot-col"><h5>Company</h5><a href="about.html">About</a><a href="contact.html">Book a demo</a><a href="mailto:hello@hospro.co.uk">hello@hospro.co.uk</a></div>
+  </div>
+  <div class="foot-bottom"><div>HOSPRO Worldwide · 17 Hanover Square, London W1S 1BN</div><div>© 2026 HOSPRO. All rights reserved.</div></div>
+</div></footer>
+</body>
+</html>
