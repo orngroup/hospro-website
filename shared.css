@@ -47,6 +47,7 @@ section{padding:88px 0}
 .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:24px}
 .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.grid-2>*,.grid-3>*,.grid-4>*{min-width:0}
 .card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:28px;transition:.18s}
 .card:hover{border-color:var(--teal);box-shadow:0 14px 40px rgba(20,35,47,.08)}
 .card .ic{width:46px;height:46px;border-radius:12px;background:var(--wash);display:grid;place-items:center;font-size:23px;margin-bottom:14px}
@@ -122,5 +123,6 @@ footer{background:var(--navy);color:#fff;padding:64px 0 34px}
   .nav-links{display:none;position:absolute;top:74px;left:0;right:0;flex-direction:column;background:#fff;padding:20px 28px;gap:16px;border-bottom:1px solid var(--line);box-shadow:0 10px 30px rgba(0,0,0,.08)}
   .nav-links.open{display:flex}
   .menu-toggle{display:block}
+  .stat .n{font-size:30px;letter-spacing:-.8px}.stats>*{min-width:0}
   .page-hero h1{font-size:34px}.sec-head h2{font-size:29px}.hero h1{font-size:36px!important}
 }

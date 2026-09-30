@@ -1,4 +1,4 @@
-HOSPRO WEBSITE (8 pages) — hospro-website repo -> hospro.co.uk
+HOSPRO WEBSITE (9 pages) — hospro-website repo -> hospro.co.uk
 ================================================================
 Upload EVERYTHING (including the img/ folder) to:
   github.com/orngroup/hospro-website
@@ -10,7 +10,8 @@ PAGES
   solutions.html     Commercial / ops / maintenance / procurement / AI
   integrations.html  PMS list + data table
   training.html      Leadership & staff training
-  consultancy.html   Hotel operating consultancy (NEW)
+  services.html      Managed services — 6 services (NEW)
+  consultancy.html   Hotel operating consultancy
   about.html         About / experience
   contact.html       Contact + demo form
 SUPPORT
